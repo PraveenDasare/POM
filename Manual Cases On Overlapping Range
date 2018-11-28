@@ -1,0 +1,11 @@
+case 1: There shoudl be atleast two ranges in order to compare else comparision no comparision 
+case 2: ranges will not overlap if end_1<start_1
+case 3: the ranges will not overlap if end_2<start_2
+case 4: the ranges will overlap if !((end_1<start_2 OR end_2<start_1))
+case 5: the ranges will overlap if(end_1>=start_2 AND end_2>=start_1)
+csee 6: the ranges will overlap if end_1<start_2 OR end_2<start_1 
+
+case 1: critical
+case 2 and 3 and 4 are important
+case 5 and 6 are good to have
+
